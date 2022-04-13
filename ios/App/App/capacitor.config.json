@@ -1,0 +1,6 @@
+{
+	"appId": "io.taskme",
+	"appName": "taskme",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

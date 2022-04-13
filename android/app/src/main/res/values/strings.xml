@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">taskme</string>
+    <string name="title_activity_main">taskme</string>
+    <string name="package_name">io.taskme</string>
+    <string name="custom_url_scheme">io.taskme</string>
+</resources>
