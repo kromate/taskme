@@ -1,22 +1,17 @@
+import { routes } from '@/router/routes';
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { RouteRecordRaw } from 'vue-router';
-import HomePage from '../views/HomePage.vue'
 
-const routes: Array<RouteRecordRaw> = [
-  {
-    path: '/',
-    redirect: '/home'
-  },
-  {
-    path: '/home',
-    name: 'Home',
-    component: HomePage
-  }
-]
+export const setupRouter = async () => {
+  const router = createRouter({
+    history: createWebHistory(),
+    routes: await Promise.all(routes),
+  });
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
+  router.afterEach(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  });
 
-export default router
+  return router;
+};
+
+export const router = setupRouter();
