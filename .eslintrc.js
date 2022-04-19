@@ -19,6 +19,7 @@ module.exports = {
 		'@typescript-eslint/interface-name-prefix': 'off',
 		'no-empty-function': 'off',
 		'no-undef': 'off',
+		'vue/multi-word-component-names': 'off',
 		'@typescript-eslint/no-empty-function': 'off',
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/camelcase': 'off',
