@@ -1,6 +1,8 @@
 <template>
-	<div class="text-red-500 text-2xl bg-black" >
+	<div class="text-purple-500 text-2xl bg-white" >
 		hello
+
+		<i class="lar la-bell"></i>
 	</div>
 </template>
 
