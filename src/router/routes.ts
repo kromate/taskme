@@ -40,7 +40,6 @@ const makeRoute = async (page: string[]) => {
 };
 
 const allViews = import.meta.glob("../views/**/*.vue");
-console.log(allViews);
 
 const allPages = Object.keys(allViews)
     .map((key: string) => key.slice(9).replace(".vue", "").split("/"))

@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 04:32:17 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-4-28-52.txt
+* src/plugins/registerGlobally.ts
+
+
+Deleted files:
+
+
+Renamed files:
