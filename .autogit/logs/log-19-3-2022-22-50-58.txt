@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 22:50:58 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/layout/MainLayout.vue
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-22-47-32.txt
+* src/components/layout/bottomMenu.vue
+
+
+Deleted files:
+
+
+Renamed files:

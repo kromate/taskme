@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 23:09:00 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/layout/bottomMenu.vue
+* tailwind.config.js
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-23-4-41.txt
+
+
+Deleted files:
+
+
+Renamed files:
