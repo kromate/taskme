@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="flex p-4 w-full">
-			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between">
+			<div class="rounded-xl border border-[#5a69debf] bg-lightPurple p-3 w-1/2 flex items-center justify-between">
 				<ion-text class="text-lg font-bold text-purple leading-5">
 					Task <br> Requested
 				</ion-text>
@@ -32,7 +32,7 @@
 					10
 				</div>
 			</div>
-			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between ml-4">
+			<div class="rounded-xl border border-[#5a69debf] bg-lightPurple p-3 w-1/2 flex items-center justify-between ml-4">
 				<ion-text class="text-lg font-bold text-purple leading-5">
 					Task <br> Received
 				</ion-text>

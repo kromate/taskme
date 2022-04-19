@@ -6,7 +6,7 @@
 
 		<IonFooter class="ion-no-border border-top-line">
 			<IonToolbar class="pt-0.5">
-				<div class="flex justify-around items-center  font-medium">
+				<div class="flex justify-around items-center  font-medium transition-all duration-300">
 					<router-link
 						v-for="{ path, icon, name } in [
 							{ name: 'Home', path: '/home', icon: 'home',  },
@@ -16,8 +16,8 @@
 
 						]" :key="path"
 						:to="path"
-						class="col-span-1 flex items-center justify-center !text-purple"
-						:class="[$route.fullPath.includes(name.toLowerCase())? 'bg-black':'']"
+						class="col-span-1 flex items-center justify-center !text-purple rounded-full"
+						:class="[$route.fullPath.includes(name.toLowerCase())? 'bg-lightPurple py-2 pl-3 pr-6 ':'']"
 					>
 						<i :class="['las', `la-${icon}`]"></i>
 						<IonText v-if="$route.fullPath.includes(name.toLowerCase())" class="ml-2">{{ name }}</IonText>
