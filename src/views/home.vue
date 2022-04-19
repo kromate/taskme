@@ -63,11 +63,11 @@
 				<div class="flex justify-around items-center text-sub text-main_dark">
 					<router-link
 						v-for="{ path, icon, name, iconOutline } in [
-							{ name: 'Home', path: '/dashboard', icon: home, iconOutline:homeOutline },
-							{ name: 'Questions', path: '/questions', icon: helpCircle, iconOutline:helpCircleOutline },
-							{ name: 'Tests', path: '/study/preps/', icon: receipt, iconOutline:receiptOutline },
-							{ name: 'Library', path: '/study', icon: library, iconOutline:libraryOutline },
-							{ name: 'Classes', path: '/classes', icon: people, iconOutline:peopleOutline }
+							{ name: 'Home', path: '/#', icon: home, iconOutline:homeOutline },
+							{ name: 'tasks', path: '/#', icon: helpCircle, iconOutline:helpCircleOutline },
+							{ name: 'chat', path: '/#', icon: receipt, iconOutline:receiptOutline },
+							{ name: 'setting', path: '/#', icon: library, iconOutline:libraryOutline },
+
 						]" :key="path"
 						:to="path"
 						class="col-span-1 flex flex-col items-center justify-center">
@@ -86,6 +86,7 @@
 </template>
 
 <script lang="ts" setup>
+import { IonFooter, IonIcon, IonToolbar } from '@ionic/vue'
 import Avatar from '@/components/Avatar.vue'
 import MainLayout from '@/layout/MainLayout.vue'
 </script>
