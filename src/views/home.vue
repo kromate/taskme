@@ -13,9 +13,10 @@
 		</div>
 
 		<div class="h-[12.25rem] w-full  mt-12 bg flex items-center justify-between">
-			<div class="flex flex-col pl-6 w-1/2">
+			<div class="flex flex-col pl-6 w-1/2 items-start">
 				<ion-text class="text-2xl font-extrabold text-white">Make your life much easier </ion-text>
 				<ion-text class="text-sm text-white font-medium mt-2">Why work when someone else can ?</ion-text>
+				<button class="bg-white text-purple text-xs py-2 px-4 rounded-full mt-2">Post a Task</button>
 			</div>
 
 			<img src="../asset/images/homeAvatar1.png" alt="home cta" class="object-contain mb-1.5 ">
