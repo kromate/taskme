@@ -22,6 +22,12 @@
 			<img src="../asset/images/homeAvatar1.png" alt="home cta" class="object-contain mb-1.5 ">
 		</div>
 
+		<div class="flex">
+			<div class="rounded-xl bg-[#5a69debf]">
+
+			</div>
+		</div>
+
 	
 	</MainLayout>
 	
