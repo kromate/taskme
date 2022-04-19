@@ -1,9 +1,15 @@
 @font-face {
   font-family: 'Avenir';
-  src: url('./Satoshi-VariableItalic.woff2') format('woff2'),
-       url('./Satoshi-VariableItalic.woff') format('woff'),
-       url('./Satoshi-VariableItalic.ttf') format('truetype');
+  src: url('./AvenirLTStd-Black.otf') format('otf');
        font-weight: 300 900;
-       font-display: swap;
-       font-style: italic;
+}
+@font-face {
+  font-family: 'Avenir Book';
+  src: url('./AvenirLTStd-Book.otf') format('otf');
+       font-weight: 300 900;
+}
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('./AvenirLTStd-Roman.otf') format('otf');
+       font-weight: 300 900;
 }

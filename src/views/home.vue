@@ -8,7 +8,6 @@
 			</span>
 		</div>
 
-		<i class="lar la-bell"></i>
 	</ion-page>
 </template>
 

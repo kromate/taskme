@@ -1,3 +1,9 @@
+@import url('@/asset/fonts/avenir_ff/avenir.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: "Avenir";
+}

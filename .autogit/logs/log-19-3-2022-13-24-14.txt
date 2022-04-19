@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 13:24:14 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-13-20-51.txt
+* src/asset/fonts/avenir_ff/AvenirLTStd-Black.otf
+* src/asset/fonts/avenir_ff/AvenirLTStd-Book.otf
+* src/asset/fonts/avenir_ff/AvenirLTStd-Roman.otf
+* src/asset/fonts/avenir_ff/avenir.css
+
+
+Deleted files:
+
+
+Renamed files:
