@@ -63,10 +63,10 @@
 				<div class="flex justify-around items-center text-sub text-main_dark">
 					<router-link
 						v-for="{ path, icon, name, iconOutline } in [
-							{ name: 'Home', path: '/#', icon: home, iconOutline:homeOutline },
-							{ name: 'tasks', path: '/#', icon: helpCircle, iconOutline:helpCircleOutline },
-							{ name: 'chat', path: '/#', icon: receipt, iconOutline:receiptOutline },
-							{ name: 'setting', path: '/#', icon: library, iconOutline:libraryOutline },
+							{ name: 'Home', path: '/#', icon: home,  },
+							{ name: 'tasks', path: '/#', icon: helpCircle,  },
+							{ name: 'chat', path: '/#', icon: receipt, },
+							{ name: 'setting', path: '/#', icon: library, },
 
 						]" :key="path"
 						:to="path"
