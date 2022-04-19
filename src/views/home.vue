@@ -18,7 +18,7 @@
 				<ion-text class="text-sm text-white font-medium mt-2">Why work when someone else can ?</ion-text>
 			</div>
 
-			<img src="../asset/images/homeAvatar1.svg" alt="home cta" class="object-contain mb-1.5 ">
+			<img src="../asset/images/homeAvatar1.png" alt="home cta" class="object-contain mb-1.5 ">
 		</div>
 
 	
