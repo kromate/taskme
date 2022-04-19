@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 13:20:51 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Avatar.vue
+* src/views/home.vue
+* tailwind.config.js
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-13-17-23.txt
+* src/asset/images/avatar.svg
+
+
+Deleted files:
+
+
+Renamed files:
