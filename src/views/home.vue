@@ -58,25 +58,6 @@
 			</div>
 		</div>
 
-		<IonFooter class="ion-no-border border-top-line">
-			<IonToolbar class="lg:hidden pt-0.5">
-				<div class="flex justify-around items-center text-sub text-main_dark">
-					<router-link
-						v-for="{ path, icon, name, iconOutline } in [
-							{ name: 'Home', path: '/#', icon: 'home',  },
-							{ name: 'tasks', path: '/#', icon: 'wallet',  },
-							{ name: 'chat', path: '/#', icon: receipt, },
-							{ name: 'setting', path: '/#', icon: library, },
-
-						]" :key="path"
-						:to="path"
-						class="col-span-1 flex flex-col items-center justify-center">
-						<ion-icon :icon="$route.path === path ? icon : iconOutline " class="w-6 md:w-14" />
-						<IonText>{{ name }}</IonText>
-					</router-link>
-				</div>
-			</IonToolbar>
-		</IonFooter>
 	
 	</MainLayout>
 	
@@ -86,7 +67,7 @@
 </template>
 
 <script lang="ts" setup>
-import { IonFooter, IonIcon, IonToolbar } from '@ionic/vue'
+
 import Avatar from '@/components/Avatar.vue'
 import MainLayout from '@/layout/MainLayout.vue'
 </script>
