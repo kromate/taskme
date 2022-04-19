@@ -12,7 +12,10 @@
 			<i class="lar la-bell text-primary border p-3 rounded-full"></i>
 		</div>
 
-		<div class="bg-purple w-full h-48 mt-12 bg ">
+		<div class="h-[12.25rem] w-full  mt-12 bg flex items-center justify-between">
+			<div class="flex flex-col">
+				<ion-text class="text-2xl font-extrabold text-white">Make your life much easier </ion-text>
+			</div>
 		</div>
 
 	
