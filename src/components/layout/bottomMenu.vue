@@ -1,7 +1,7 @@
 <template>
   
-	<IonFooter class="ion-no-border border-top-line absolute inset-x-0 bottom-0 !bg-white">
-		<IonToolbar class="pt-0.5">
+	<IonFooter class="ion-no-border border-top-line absolute inset-x-0 bottom-0 !bg-white shadow-md">
+		<IonToolbar class="pt-0.5 bg-white">
 			<div class="flex justify-around items-center  font-medium transition-all duration-300">
 				<router-link
 					v-for="{ path, icon, name } in [
