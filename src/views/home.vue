@@ -1,6 +1,8 @@
 <template>
 	<div class="text-purple-500 text-2xl bg-white" >
-		hello
+		<div>
+			<Avatar/>
+		</div>
 
 		<i class="lar la-bell"></i>
 	</div>

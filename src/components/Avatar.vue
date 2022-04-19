@@ -1,5 +1,5 @@
 <template>
-  img
+	<img src="@/asset/images/avatar.png" alt="">
 </template>
 
 <script lang="ts" setup>
