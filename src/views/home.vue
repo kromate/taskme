@@ -74,7 +74,7 @@ import MainLayout from '@/layout/MainLayout.vue'
 
 <style  scoped>
 .bg{
-	background: url('../asset/images/background.svg');
+	background: url('@/asset/images/background.svg');
 	background-origin: border-box;
 }
 </style>
