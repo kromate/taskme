@@ -1,13 +1,13 @@
 <template>
 	<ion-app>
 		<ion-router-outlet />
-		<BottomMenu/>
+		<BottomNav/>
 	</ion-app>
 </template>
 
 <script lang="ts" setup>
 import { IonApp, IonRouterOutlet } from '@ionic/vue'
-import BottomMenu from '@/components/layout/BottomMenu.vue'
+import BottomNav from '@/components/layout/BottomNav.vue'
 
 
 
