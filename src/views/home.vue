@@ -24,7 +24,7 @@
 
 		<div class="flex p-4 w-full">
 			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between">
-				<ion-text class="text-lg font-bold text-purple">
+				<ion-text class="text-lg font-bold text-purple leading-5">
 					Task <br> Requested
 				</ion-text>
 
@@ -58,6 +58,25 @@
 			</div>
 		</div>
 
+		<IonFooter class="ion-no-border border-top-line">
+			<IonToolbar class="lg:hidden pt-0.5">
+				<div class="flex justify-around items-center text-sub text-main_dark">
+					<router-link
+						v-for="{ path, icon, name, iconOutline } in [
+							{ name: 'Home', path: '/dashboard', icon: home, iconOutline:homeOutline },
+							{ name: 'Questions', path: '/questions', icon: helpCircle, iconOutline:helpCircleOutline },
+							{ name: 'Tests', path: '/study/preps/', icon: receipt, iconOutline:receiptOutline },
+							{ name: 'Library', path: '/study', icon: library, iconOutline:libraryOutline },
+							{ name: 'Classes', path: '/classes', icon: people, iconOutline:peopleOutline }
+						]" :key="path"
+						:to="path"
+						class="col-span-1 flex flex-col items-center justify-center">
+						<ion-icon :icon="$route.path === path ? icon : iconOutline " class="w-6 md:w-14" />
+						<IonText>{{ name }}</IonText>
+					</router-link>
+				</div>
+			</IonToolbar>
+		</IonFooter>
 	
 	</MainLayout>
 	
