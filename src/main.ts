@@ -1,4 +1,4 @@
-import { createApp } from '@vue/runtime-core'
+import { createApp } from 'vue'
 import App from './App.vue'
 import { router as setupRouter } from "@/router";
 import { registerComponents } from './plugin/registerGlobally'
