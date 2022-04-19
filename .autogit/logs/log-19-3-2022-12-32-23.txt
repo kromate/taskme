@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 12:32:23 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-4-59-50.txt
+* src/asset/images/avatar.png
+
+
+Deleted files:
+
+
+Renamed files:
