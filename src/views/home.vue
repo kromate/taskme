@@ -12,7 +12,7 @@
 			<i class="lar la-bell text-primary border p-3 rounded-full"></i>
 		</div>
 
-		<div class="bg-purple w-full h-48 mt-12 ">
+		<div class="bg-purple w-full h-48 mt-12 bg ">
 		</div>
 
 	
@@ -29,5 +29,8 @@ import MainLayout from '@/layout/MainLayout.vue'
 </script>
 
 <style  scoped>
-
+.bg{
+	background: url('../asset/images/background.svg');
+	background-origin: border-box;
+}
 </style>
