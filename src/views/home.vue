@@ -23,8 +23,10 @@
 		</div>
 
 		<div class="flex">
-			<div class="rounded-xl bg-[#5a69debf]">
-
+			<div class="rounded-xl bg-[#F5F5FF] p-3.5 ">
+				<ion-text class="text-purple font-bold">
+					Task <br> Requested
+				</ion-text>
 			</div>
 		</div>
 
