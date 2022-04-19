@@ -1,7 +1,9 @@
 <template>
-	<div>
-		omo
-	</div>
+	<ion-page  >
+		<ion-content >
+			<slot/>
+		</ion-content>
+	</ion-page>
 </template>
 
 <script lang="ts" setup>

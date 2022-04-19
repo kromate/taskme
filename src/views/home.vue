@@ -1,6 +1,5 @@
 <template>
-	<ion-page class="text-purple-500 text-2xl bg-white px-7 py-8" >
-		<ion-content>
+
 	
 			<div class="w-full flex justify-between items-center">
 				<div class="flex items-center">
@@ -17,8 +16,7 @@
 			<div class="bg-purple w-full h-48 mt-12 -mx-12">
 			</div>
 
-		</ion-content>
-	</ion-page>
+	
 </template>
 
 <script lang="ts" setup>
