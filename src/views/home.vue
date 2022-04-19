@@ -12,7 +12,7 @@
 			<i class="lar la-bell text-primary border p-3 rounded-full"></i>
 		</div>
 
-		<div class="h-[12.25rem] w-full  mt-12 bg flex items-center justify-between">
+		<div class="h-[12.25rem] w-full  my-12 bg flex items-center justify-between">
 			<div class="flex flex-col pl-6 w-1/2 items-start">
 				<ion-text class="text-2xl font-extrabold text-white">Make your life much easier </ion-text>
 				<ion-text class="text-sm text-white font-medium mt-2">Why work when someone else can ?</ion-text>
@@ -28,8 +28,17 @@
 					Task <br> Requested
 				</ion-text>
 
-				<div class="rounded-full h-11 w-11 border-2.5 border-purple flex justify-center items-center">
+				<div class="rounded-full h-12 w-12 border-[3px] p-3 font-extrabold text-xl text-purple border-purple flex justify-center items-center">
 					10
+				</div>
+			</div>
+			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between ml-4">
+				<ion-text class="text-lg font-bold text-purple">
+					Task <br> Received
+				</ion-text>
+
+				<div class="rounded-full h-12 w-12 border-[3px] p-3 font-extrabold text-xl text-purple border-purple flex justify-center items-center">
+					0
 				</div>
 			</div>
 		</div>
