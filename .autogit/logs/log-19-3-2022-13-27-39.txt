@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 19 2022 13:27:39 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/asset/fonts/avenir_ff/avenir.css
+* src/theme/tailwind.css
+* src/views/home.vue
+
+
+Created files:
+* .autogit/logs/log-19-3-2022-13-24-14.txt
+
+
+Deleted files:
+
+
+Renamed files:
