@@ -16,9 +16,11 @@
 
 						]" :key="path"
 						:to="path"
-						class="col-span-1 flex items-center justify-center !text-purple">
+						class="col-span-1 flex items-center justify-center !text-purple"
+						:class="[$route.fullPath.includes(name.toLowerCase())? 'bg-black':'']"
+					>
 						<i :class="['las', `la-${icon}`]"></i>
-						<IonText v-if="$route.fullPath.includes(name.toLowerCase())">{{ name }}</IonText>
+						<IonText v-if="$route.fullPath.includes(name.toLowerCase())" class="ml-2">{{ name }}</IonText>
 					</router-link>
 				</div>
 			</IonToolbar>
