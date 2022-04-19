@@ -12,14 +12,14 @@
 			<i class="lar la-bell text-primary border p-3 rounded-full"></i>
 		</div>
 
-		<div class="h-[12.25rem] w-full  my-12 bg flex items-center justify-between">
+		<div class="h-[12.25rem] w-full  my-12 bg flex items-center justify-between py-">
 			<div class="flex flex-col pl-6 w-1/2 items-start">
-				<ion-text class="text-2xl font-extrabold text-white">Make your life much easier </ion-text>
+				<ion-text class="text-[22px] font-extrabold text-white min-w-[166px]">Make your life much easier </ion-text>
 				<ion-text class="text-sm text-white font-medium mt-2">Why work when someone else can ?</ion-text>
 				<button class="bg-white text-purple text-xs py-2 px-4 rounded-full mt-2">Post a Task</button>
 			</div>
 
-			<img src="../asset/images/homeAvatar1.png" alt="home cta" class="object-contain mb-1.5 ">
+			<img src="../asset/images/homeAvatar1.svg" alt="home cta" class="object-contain mb-1.5 ">
 		</div>
 
 		<div class="flex p-4 w-full">
