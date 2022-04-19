@@ -1,5 +1,5 @@
 <template>
-  img
+  <im
 </template>
 
 <script lang="ts" setup>
