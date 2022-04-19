@@ -16,6 +16,8 @@
 			<div class="flex flex-col">
 				<ion-text class="text-2xl font-extrabold text-white">Make your life much easier </ion-text>
 			</div>
+
+			<img src="../asset/images/homeAvatar1.svg" alt="home cta" class="object-contain mb-1.5">
 		</div>
 
 	
