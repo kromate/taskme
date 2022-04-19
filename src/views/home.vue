@@ -1,7 +1,7 @@
 <template>
 	<MainLayout>
 
-		<div class="w-full flex justify-between items-center pt-8 px-7">
+		<div class="w-full flex justify-between items-center pt-8 px-4">
 			<div class="flex items-center">
 				<Avatar class="w-11 h-11 mr-3"/>
 				<span class="flex flex-col">
@@ -22,11 +22,11 @@
 			<img src="../asset/images/homeAvatar1.png" alt="home cta" class="object-contain mb-1.5 ">
 		</div>
 
-		<div class="flex">
-			<div class="rounded-xl bg-[#5a69debf]">
-<ion-text>
-	Task
-</ion-text>
+		<div class="flex p-4 w-full">
+			<div class="rounded-xl border border-[#5a69debf] p-2.5 w-1/2">
+				<ion-text>
+					Task <br> Requested
+				</ion-text>
 			</div>
 		</div>
 
