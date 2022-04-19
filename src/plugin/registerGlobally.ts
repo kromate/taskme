@@ -1,7 +1,7 @@
 
 
 
-export const registerComponents = async (app) => {
+export const registerComponents = async (app: any) => {
     const requireComponent = import.meta.glob('../components/*.vue')
 
     for (const path in requireComponent) {
