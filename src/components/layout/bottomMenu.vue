@@ -1,6 +1,6 @@
 <template>
   
-	<IonFooter class="ion-no-border border-top-line absolute inset-x-0 bottom-0 !bg-white shadow-md">
+	<IonFooter class="ion-no-border border-top-line absolute inset-x-0 bottom-0 !bg-white shadow-2xl" collapse="fade">
 		<IonToolbar class="pt-0.5 bg-white">
 			<div class="flex justify-around items-center  font-medium transition-all duration-300">
 				<router-link
@@ -16,7 +16,7 @@
 					:class="[$route.fullPath.includes(name.toLowerCase())? 'bg-lightPurple py-2 pl-3 pr-6 ':'']"
 				>
 					<i :class="['las', `la-${icon}`]"></i>
-					<IonText v-if="$route.fullPath.includes(name.toLowerCase())" class="ml-2">{{ name }}</IonText>
+					<IonText v-if="$route.fullPath.includes(name.toLowerCase())" class="ml-2 text-sm">{{ name }}</IonText>
 				</router-link>
 			</div>
 		</IonToolbar>
