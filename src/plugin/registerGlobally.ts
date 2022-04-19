@@ -12,9 +12,8 @@ export const registerIonicComponent = async (app) => {
 
 export const registerComponents = async (app: any) => {
     await registerIonicComponent(app)
-    const requireComponent = import.meta.glob('../components/*.vue')
+    const requireComponent = import.meta.glob('../components/*/**.vue')
 
-    console.log(requireComponent);
 
     for (const path in requireComponent) {
         requireComponent[path]().then(async (mod) => {
