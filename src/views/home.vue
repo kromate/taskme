@@ -43,8 +43,13 @@
 			</div>
 		</div>
 
-		<div class="flex">
-			
+		<div class="px-4 mt-8">
+			<ion-text class="flex justify-between items-center">
+				<span class="text-xl font-bold text-primary">Recent</span>
+				<router-link to="#" class="text-purple text-sm font-medium">
+					See all
+				</router-link>
+			</ion-text>
 		</div>
 
 	
