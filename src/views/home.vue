@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between ml-4">
-				<ion-text class="text-lg font-bold text-purple">
+				<ion-text class="text-lg font-bold text-purple leading-5">
 					Task <br> Received
 				</ion-text>
 
@@ -51,8 +51,10 @@
 				</router-link>
 			</ion-text>
 
-			<div class="mt-4">
-
+			<div class="mt-4 bg-lightGrey flex justify-center items-center p-5 rounded-xl">
+				<ion-text class="text-xl text-black font-medium">
+					You have no task history yet
+				</ion-text>
 			</div>
 		</div>
 
