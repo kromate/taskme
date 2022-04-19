@@ -53,7 +53,7 @@
 
 			<div class="mt-4 bg-lightGrey flex justify-center items-center p-5 rounded-xl">
 				<ion-text class="text-xl text-black font-medium">
-					You have no task history yet
+					You have no task history yet {{}}
 				</ion-text>
 			</div>
 		</div>

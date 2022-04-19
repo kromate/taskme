@@ -9,7 +9,7 @@
 				<div class="flex justify-around items-center text-sub text-main_dark">
 					<router-link
 						v-for="{ path, icon, name } in [
-							{ name: 'Home', path: '/#', icon: 'home',  },
+							{ name: 'home', path: '/home', icon: 'home',  },
 							{ name: 'tasks', path: '/#', icon: 'wallet',  },
 							{ name: 'chat', path: '/#', icon: 'comment-dots', },
 							{ name: 'setting', path: '/#', icon: 'cog', },
@@ -17,8 +17,8 @@
 						]" :key="path"
 						:to="path"
 						class="col-span-1 flex items-center justify-center">
-						<i :class="[`las` `la-${icon}`]"></i>
-						<IonText>{{ name }}</IonText>
+						<i :class="['las', `la-${icon}`]"></i>
+						<IonText v-if="$route.fullPath.includes(name)">{{ name }}</IonText>
 					</router-link>
 				</div>
 			</IonToolbar>
