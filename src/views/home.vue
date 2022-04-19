@@ -23,10 +23,14 @@
 		</div>
 
 		<div class="flex p-4 w-full">
-			<div class="rounded-xl border border-[#5a69debf] p-2.5 w-1/2">
-				<ion-text>
+			<div class="rounded-xl border border-[#5a69debf] bg-[#F5F5FF] p-3 w-1/2 flex items-center justify-between">
+				<ion-text class="text-lg font-bold text-purple">
 					Task <br> Requested
 				</ion-text>
+
+				<div class="rounded-full h-11 w-11 border-2.5 border-purple flex justify-center items-center">
+					10
+				</div>
 			</div>
 		</div>
 
