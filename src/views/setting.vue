@@ -1,6 +1,10 @@
 <template>
 	<MainLayout>
 		<div class="bg-lightPurplebg min-h-screen px-4 py-8">
+			<div class="flex justify-between items-center">
+				<ion-text class="ml-auto">Profile</ion-text>
+				<i class="lar la-bell text-primary border p-3 rounded-full ml-auto"></i>
+			</div>
 			<Avatar class="w-28 h-28 mx-auto"/>
 		</div>
 	</MainLayout>
