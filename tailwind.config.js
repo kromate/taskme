@@ -11,7 +11,8 @@ module.exports = {
 				grey: '#A9A9AA',
 				purple:'#5256E8',
 				lightGrey: '#F1F1F5;',
-				lightPurple:'#F5F5FF'
+				lightPurple:'#F5F5FF',
+				lightPurplebg:'#F5F8FF',
 			},
 			boxShadow: {
 				menu :'0 6px 30px -12px rgb(0 0 0 / 67%)'
