@@ -14,9 +14,9 @@
 				<button class="font-medium bg-white text-purple text-xs py-2 px-4 rounded-full mt-2 w-fit">Copy referral code</button>
 			</div>	
 
-			<div class="bg-white mt-6 py-7 px-5">
+			<div class="bg-white mt-6 p-5">
 				<div class="flex">
-					<i class="lar la-bell text-primary bg-lightPurple p-3 rounded-full   "></i>
+					<i class="lar la-user text-purple text-xl w-9 h-9 bg-lightPurple p-3 rounded-full justify-center flex items-center   "></i>
 				</div>
 			</div>
 		</div>
