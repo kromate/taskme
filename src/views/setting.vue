@@ -15,9 +15,9 @@
 			</div>	
 
 			<div class="bg-white mt-6 p-4 rounded-3xl">
-				<div class="flex items-center border-b p-3 py-4 border-lightPurplebg" v-for="n in options" :key="n">
+				<div :class="['flex items-center p-3 py-4 border-lightPurplebg']" v-for="(n, ind) in options" :key="n.name">
 					<i class="lar la-user text-purple text-xl w-9 h-9 bg-lightPurple p-3 rounded-full justify-center flex items-center"></i>
-					<ion-text class="font-medium text-base ml-4">Profile info</ion-text>
+					<ion-text class="font-medium text-base ml-4">{{n.name}}</ion-text>
 					<i class="las la-angle-right ml-auto"></i>
 
 				</div>
@@ -33,8 +33,9 @@ import Avatar from '@/components/Avatar.vue'
 
 const options = [
 	{icon:'user', name: 'Profile info', link:''	},
-	{icon:'user', name: 'Profile info', link:''	},
-	{icon:'user', name: 'Profile info', link:''	},
+	{icon:'user', name: 'Activities', link:''	},
+	{icon:'user', name: 'My wallet', link:''	},
+	{icon:'user', name: 'Settings', link:''	},
 ]
 </script>
 
