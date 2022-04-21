@@ -17,6 +17,8 @@
 			<div class="bg-white mt-6 p-7 rounded-3xl">
 				<div class="flex">
 					<i class="lar la-user text-purple text-xl w-9 h-9 bg-lightPurple p-3 rounded-full justify-center flex items-center"></i>
+					<ion-text class="font-medium text-base ml-4">Profile info</ion-text>
+					
 				</div>
 			</div>
 		</div>
