@@ -1,6 +1,6 @@
 <template>
 	<MainLayout>
-		<div class="bg-lightPurplebg min-h-screen px-4 py-8 flex flex-col">
+		<div class="bg-lightPurplebg min-h-screen px-5 py-8 flex flex-col">
 			<div class="flex justify-center items-center">
 				<ion-text class=" text-xl font-extrabold text-center">Profile</ion-text>
 				<i class="lar la-bell text-primary bg-white p-3 rounded-full ml-auto absolute right-6  "></i>
@@ -13,6 +13,12 @@
 				<span class="text-lg text-white font-bold text-center">Refer a friend and earn 2.5% from their first task</span>
 				<button class="font-medium bg-white text-purple text-xs py-2 px-4 rounded-full mt-2 w-fit">Copy referral code</button>
 			</div>	
+
+			<div class="bg-white mt-6 py-7 px-5">
+				<div class="flex">
+					<i class="lar la-bell text-primary bg-lightPurple p-3 rounded-full   "></i>
+				</div>
+			</div>
 		</div>
 	</MainLayout>
 
