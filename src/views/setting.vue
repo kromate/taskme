@@ -1,6 +1,6 @@
 <template>
 	<MainLayout>
-		<div class="bg-lightPurplebg min-h-screen px-5 py-8 flex flex-col pb-20">
+		<div class="bg-lightPurplebg min-h-screen px-5 py-8 flex flex-col pb-24">
 			<div class="flex justify-center items-center">
 				<ion-text class=" text-xl font-extrabold text-center">Profile</ion-text>
 				<i class="lar la-bell text-primary bg-white p-3 rounded-full ml-auto absolute right-6  "></i>

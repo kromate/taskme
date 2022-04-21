@@ -1,6 +1,6 @@
 <template>
 	<MainLayout>
-		<div class="bg-lightPurplebg min-h-screen">
+		<div class="bg-lightPurplebg min-h-screen pb-24">
 
 
 			<div class="w-full flex justify-between items-center pt-8 px-4">
